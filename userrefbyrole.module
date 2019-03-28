@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Main file for the userrefbyrole module.
+ */
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function userrefbyrole_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'entityreference') {
+    return 'plugins/' . $plugin;
+  }
+}

@@ -1,0 +1,6 @@
+name = User Reference By Role
+description = Allows user reference fields to limit selection by user roles.
+package = custom
+core = 7.x
+
+dependencies[] = entityreference
